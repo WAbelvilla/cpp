@@ -1,62 +1,12 @@
-[Project]
-FileName=HolaMundo.dev
-Name=HolaMundo
-Type=1
-Ver=2
-ObjFiles=
-Includes=
-Libs=
-PrivateResource=
-ResourceIncludes=
-MakeIncludes=
-Compiler=
-CppCompiler=
-Linker=
-IsCpp=1
-Icon=
-ExeOutput=
-ObjectOutput=
-LogOutput=
-LogOutputEnabled=0
-OverrideOutput=0
-OverrideOutputName=
-HostApplication=
-UseCustomMakefile=0
-CustomMakefile=
-CommandLine=
-Folders=
-IncludeVersionInfo=0
-SupportXPThemes=0
-CompilerSet=0
-CompilerSettings=0000000000000000000000000
-UnitCount=1
+#include <iostream>
 
-[VersionInfo]
-Major=1
-Minor=0
-Release=0
-Build=0
-LanguageID=1033
-CharsetID=1252
-CompanyName=
-FileVersion=
-FileDescription=Developed using the Dev-C++ IDE
-InternalName=
-LegalCopyright=
-LegalTrademarks=
-OriginalFilename=
-ProductName=
-ProductVersion=
-AutoIncBuildNr=0
-SyncProduct=1
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-[Unit1]
-FileName=main.cpp
-CompileCpp=1
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
+using namespace std;
+	
+int main(int argc, char** argv) {
+	
+	cout << " Hola Mundo!";
+	
+	return 0;
+}
