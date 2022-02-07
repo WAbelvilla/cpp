@@ -41,7 +41,7 @@ int main(int argc, char const *argv[])
 
       if ( nota < 60)
     {
-        cout << " Obtuviste una F";
+        cout << " Obtuviste una f";
     }
 
 
