@@ -16,7 +16,7 @@ int main() {
 	cout << "Eres un agente? ingresa tu contrasena: ";
 	cin >> contrasena;
 	
-	if (contrasena == "smith" || "neo") {
+	if (contrasena == "smith" || contrasena == "neo") {
 		system("COLOR 02");
 
 		char caRow[80];
@@ -62,9 +62,12 @@ int main() {
             contador++;
            
 		}		
-	} else {
-		cout << "acceso a la matrix denegado";
-	} 
+	}
+    else
+    {
+        cout << " Acceso a la matrix denegada";
+    } 
+
 
     
      
