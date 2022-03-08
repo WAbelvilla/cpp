@@ -6,51 +6,19 @@ int sumar(int a, int b)
 {
     return a + b;
 }
-int restar(int a, int b)
-{
-    return a - b;
-}
-int multiplicar(int a, int b)
-{
-    return a * b;
-}
-int dividir(int a, int b)
-{
-    if (b == 0)
-    {
-        throw " No se puede dividir entre 0";
-    }
-    return a / b;
-}
 
 int calculadora(int a, int b, char operador)
 {
-    switch (operador)
+    if ( operador == '+')
     {
-    case '+':
-        return sumar(a,b);
-        break;
-    
-    case '-':
-        return restar(a,b);
-        break;
-       
-    case '*':
-        return multiplicar(a,b);
-        break;
-    
-    case '/':
-        return dividir(a,b);
-        break;
-    
-    default:
-        break;
+        return sumar (a,b);
     }
+
     throw " El operador no existe";
 }
 
 int main(int argc, char const *argv[])
-{    
+{
     int n1 = 0;
     int n2 = 0;
     int resultado = 0;
@@ -64,7 +32,6 @@ int main(int argc, char const *argv[])
     cin >> operador;
     
     cout << endl;
-
     try
     {
         resultado = calculadora(n1, n2, operador); 
@@ -75,7 +42,6 @@ int main(int argc, char const *argv[])
     {
         cout << error;
     }
-
 
    
     return 0;
