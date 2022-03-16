@@ -1,6 +1,5 @@
 #include <iostream>
-
-
+#include "agregarProducto.h"
 
 using namespace std;
 
