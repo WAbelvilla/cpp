@@ -4,8 +4,8 @@
 #include<stdlib.h>
 #include<time.h>
 
-    
 using namespace std;
+
 #define ARRIBA 72
 #define IZQUIERDA 75
 #define ABAJO 80
@@ -13,7 +13,6 @@ using namespace std;
 #define ESC 27
 
 int Puntos;
-
 int cuerpo[200][2];
 int n=1;
 int tam = 3;
@@ -161,7 +160,7 @@ yyc=(rand()%19)+4;
 }
 
 void proceso(char &tecla, int &puntos){
-Puntos = puntos;
+Puntos;
 borrarcuerpo();
 comida();
 puntosx();
