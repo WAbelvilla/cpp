@@ -1,0 +1,2 @@
+bool login();
+void logout();
