@@ -6,9 +6,6 @@
 
 using namespace std;
 char opcion = 's';
-int contador;
-int olancho;
-int cortes;
 
 string pacientes[100][7] = 
 {
